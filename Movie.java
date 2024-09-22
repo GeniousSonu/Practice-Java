@@ -22,6 +22,8 @@ public class Movie {
 
         int bills = (pizza* pizzapiece) + (puffs*puffspiece) + (cooldrink*drinkspiece);
 
+        System.out.println("Bill Details: ");
+        System.out.println();
         System.out.println("No of Pizzas: " +pizzapiece);
         System.out.println("No of Puffs: " +puffspiece);
         System.out.println("No of Cooldrinks: " +drinkspiece);
